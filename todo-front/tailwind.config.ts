@@ -13,6 +13,8 @@ export default {
         foreground: "var(--foreground)",
         custom: {
           peach: "#f2bfa1",
+          cream: "#f4e8e1",
+          orange: "#e1601b",
         }
       },
     },

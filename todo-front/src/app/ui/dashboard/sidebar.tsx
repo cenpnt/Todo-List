@@ -5,7 +5,7 @@ import "../../globals.css";
 
 export default function Sidebar(){
     return(
-        <div className="flex h-full flex-col px-3 py-4 md:px-2 bg-custom-peach min-h-screen">
+        <div className="flex h-full flex-col px-3 py-4 md:px-2 bg-custom-cream min-h-screen">
             <Link
                 href="/"
             >

@@ -30,7 +30,7 @@ export default function NavLink() {
             <Link
               href={link.path}
               className={clsx(
-                "flex h-[48px] grow items-center gap-2 rounded-md bg-custom-cream p-3 text-sm text-black font-medium hover:bg-custom-orange hover:text-slate-200 md:flex-none md:justify-start md:p-2 md:px-3",
+                "flex h-[48px] grow items-center gap-2 rounded-md bg-custom-cream p-3 text-sm text-black font-medium hover:bg-custom-orange hover:text-slate-200 md:flex-none md:justify-start md:p-2 md:px-3 m-1",
                   {
                     'text-slate-200 bg-custom-orange': pathname === link.path,
                   },

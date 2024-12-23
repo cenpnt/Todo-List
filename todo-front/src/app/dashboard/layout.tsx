@@ -8,7 +8,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
+    <div className="flex h-screen flex-col md:flex-row md:overflow-hidden bg-gray-100">
         <div className="w-full flex-none md:w-64">
             <Sidebar />
         </div>

@@ -15,6 +15,8 @@ export default {
           peach: "#f2bfa1",
           cream: "#f4e8e1",
           orange: "#e1601b",
+          lightcream: "#f9f7f7",
+          grey: "#898383"
         }
       },
     },

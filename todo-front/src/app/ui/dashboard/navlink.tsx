@@ -3,12 +3,10 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 import { RiDashboardFill } from "react-icons/ri";
-import { IoCalendar } from "react-icons/io5";
-import { IoIosListBox } from "react-icons/io";
+import { IoCalendar, IoSettingsSharp } from "react-icons/io5";
+import { IoIosListBox, IoIosHelpCircle } from "react-icons/io";
 import { HiPencilSquare } from "react-icons/hi2";
 import { MdManageAccounts } from "react-icons/md";
-import { IoSettingsSharp } from "react-icons/io5";
-import { IoIosHelpCircle } from "react-icons/io";
 
 const link = [
     {name: 'DashBoard', path: '/dashboard', icon: RiDashboardFill},
@@ -32,9 +30,9 @@ export default function NavLink() {
             <Link
               href={link.path}
               className={clsx(
-                "flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-transparent p-3 text-sm text-black font-medium hover:text-slate-200 md:flex-none md:justify-start md:p-2 md:px-3",
+                "flex h-[48px] grow items-center gap-2 rounded-md bg-custom-cream p-3 text-sm text-black font-medium hover:bg-custom-orange hover:text-slate-200 md:flex-none md:justify-start md:p-2 md:px-3 m-1",
                   {
-                    'text-slate-200': pathname === link.path,
+                    'text-slate-200 bg-custom-orange': pathname === link.path,
                   },
                 )}
             >

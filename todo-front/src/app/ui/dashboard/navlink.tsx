@@ -11,7 +11,7 @@ import { MdManageAccounts } from "react-icons/md";
 const link = [
     {name: 'DashBoard', path: '/dashboard', icon: RiDashboardFill},
     {name: 'Calendar', path: '/dashboard/calendar', icon: IoCalendar},
-    {name: 'Routine', path: '/dashboard/routine', icon: IoIosListBox},
+    {name: 'Routine', path: '/routine', icon: IoIosListBox},
     {name: 'Study', path: '/dashboard/study', icon: HiPencilSquare},
     {name: 'Project Manager', path: '/dashboard/projectmanager', icon: MdManageAccounts},
     {name: 'Settings', path: '/dashboard/setting', icon: IoSettingsSharp},
@@ -37,7 +37,7 @@ export default function NavLink() {
                 )}
             >
               <LinkIcon className="w-6" />
-              <p className="hidden md:block">{link.name}</p>
+              <p className="hidden font-bold md:block">{link.name}</p>
             </Link>
             {/* Add <hr> after Project Manager */}
             {link.name === 'Project Manager' && (
